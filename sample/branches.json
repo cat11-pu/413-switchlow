@@ -1,0 +1,19 @@
+{
+  "budget": 3,
+  "span": 8,
+  "bad_value_code": "E_BAD_VALUE",
+  "dup_code": "E_DUP",
+  "empty_code": "E_EMPTY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "cases": [], "lowers": [], "tables": 0, "chains": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "case", "value": 3 },
+    { "id": 2, "kind": "case", "value": 4 },
+    { "id": 3, "kind": "case", "value": 7 },
+    { "id": 4, "kind": "lower" },
+    { "id": 5, "kind": "case", "value": 1 },
+    { "id": 6, "kind": "lower" },
+    { "id": 7, "kind": "case", "value": 20 },
+    { "id": 8, "kind": "lower" }
+  ]
+}
